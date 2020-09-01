@@ -1,0 +1,12 @@
+2020-08-31T18:34:48+00:00 CRITICAL Uncaught Error: Class 'WP_Super_Duper' not found in F:\xampp\apps\wordpress\htdocs\wp-content\plugins\userswp-social-login\includes\widgets.php:3
+Stack trace:
+#0 F:\xampp\apps\wordpress\htdocs\wp-content\plugins\userswp-social-login\includes\class-uwp-social.php(82): require_once()
+#1 F:\xampp\apps\wordpress\htdocs\wp-content\plugins\userswp-social-login\includes\class-uwp-social.php(12): UsersWP_Social->includes()
+#2 F:\xampp\apps\wordpress\htdocs\wp-content\plugins\userswp-social-login\uwp-social.php(80): UsersWP_Social::get_instance()
+#3 F:\xampp\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(287): init_uwp_social('')
+#4 F:\xampp\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 F:\xampp\apps\wordpress\htdocs\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 F:\xampp\apps\wordpress\htdocs\wp-settings.php(409): do_action('plugins_loaded')
+#7 F:\xampp\apps\wordpress\htdocs\wp-config.php(105): require_once('F:\\xampp\\apps\\w...')
+#8 F:\xampp\apps\wo en F:\xampp\apps\wordpress\htdocs\wp-content\plugins\userswp-social-login\includes\widgets.php en la línea 3
+
